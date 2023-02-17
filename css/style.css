@@ -1,0 +1,448 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style-type: none;
+}
+
+@font-face {
+   font-family: Poppins-Regular;
+   src: url(../fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+   font-family: Poppins-SemiBold;
+   src: url(../fonts/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+   font-family: Poppins-Medium;
+   src: url(../fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+   font-family: Poppins-Bold;
+   src: url(../fonts/Poppins-Bold.ttf);
+}
+
+body {
+   background-color: #F5F5F5;
+}
+
+.flex {
+   display: flex;
+   align-items: center;
+   padding-left: 80px;
+
+}
+
+.menu {}
+
+.menu ul {
+   width: 562px;
+   display: flex;
+   justify-content: space-between;
+   margin: 80px 84px 0px 228px;
+}
+
+.ordernow {
+   width: 180px;
+   height: 60px;
+   background-color: rgba(253, 199, 45, 1);
+   border-radius: 60px;
+   text-align: center;
+   padding-top: 14px;
+   margin-top: 80px;
+   margin-left: 100px;
+
+}
+
+.fonts a,
+p {
+   font-family: Poppins-SemiBold;
+   font-size: 20px;
+   color: rgba(0, 0, 0, 1);
+
+}
+
+.toggle img {
+   width: 34px;
+   height: 20px;
+   margin-top: 86px;
+
+}
+
+.delivery {
+   margin-top: 60px;
+
+}
+
+/********* main *********/
+
+.getstarted {
+   width: 466px;
+   height: 418px;
+   margin: 140px 0 10px 80px;
+
+}
+
+.orderproducts {
+   font-family: Poppins-Bold;
+   font-size: 60px;
+   color: rgba(0, 0, 0, 1);
+}
+
+.ptext {
+   width: 394px;
+   height: 90px;
+   font-family: Poppins-Regular;
+   font-size: 20px;
+   color: rgba(119, 119, 118, 1);
+   margin-top: 36px;
+}
+
+.get {
+   width: 180px;
+   height: 60px;
+   background-color: rgba(253, 199, 45, 1);
+   border-radius: 60px;
+   margin-top: 52px;
+   text-align: center;
+   padding-top: 16px;
+
+}
+
+.get a {
+   color: rgba(0, 0, 0, 1);
+
+
+}
+
+.orderandimg {
+   display: flex;
+}
+
+/*** meore gverdi ***/
+
+
+.boxcompany {
+   display: flex;
+}
+
+.h2text {
+   width: 460px;
+   height: 136px;
+   font-family: Poppins-Medium;
+   font-size: 40px;
+   color: rgba(0, 0, 0, 1);
+}
+
+.textcompany {
+   width: 510px;
+   height: 104px;
+   font-family: Poppins-Medium;
+   font-size: 20px;
+   color: rgba(119, 119, 118, 1);
+}
+
+.image2 {
+   margin: 114px 100px 0 76px;
+}
+
+.textabout {
+   margin: 192px 76px 0 0;
+}
+
+.doordelivery {
+   display: flex;
+}
+
+.Important {
+   font-family: Poppins-Medium;
+   font-size: 40px;
+   color: rgba(0, 0, 0, 1);
+   width: 330px;
+   height: 126px;
+   margin: 264px 162px 42px 100px;
+}
+
+.yourorder {
+   font-family: Poppins-Regular;
+   font-size: 20px;
+   color: rgba(119, 119, 118, 1);
+   width: 502px;
+   height: 120px;
+   margin-left: 90px;
+
+}
+
+.doorimg {
+   margin: 216px 100px 154px 0;
+}
+
+/*** mesame gverdi ***/
+
+.center {
+   text-align: center;
+   font-family: Poppins-SemiBold;
+   font-size: 40px;
+   color: rgba(0, 0, 0, 1);
+
+}
+
+.top {
+   margin-top: 92px;
+}
+
+.articlebox {
+   width: 380px;
+   height: 380px;
+   text-align: center;
+   box-shadow: 0px 0px 10px 1px;
+   border-radius: 15px;
+   background-color: #FFFFFF;
+   padding-top: 34px;
+   margin-top: 120px;
+}
+
+.paydone {
+   font-family: Poppins-SemiBold;
+   font-size: 20px;
+   color: rgba(0, 0, 0, 1);
+
+}
+
+.payvisa {
+   font-family: Poppins-Medium;
+   font-size: 16px;
+   color: rgba(119, 119, 118, 1);
+
+}
+
+.learnmore {
+   font-family: Poppins-SemiBold;
+   font-size: 15px;
+   margin-top: 25px;
+}
+
+.learnmore a {
+   color: rgba(0, 0, 0, 1);
+}
+
+.payimg {
+   margin-top: 32px;
+   margin-bottom: 30px;
+}
+
+.payimg2 {
+   margin-top: 10px;
+}
+
+.payimg3 {
+   margin-top: 16px;
+}
+
+.articleboxfirst {
+   display: flex;
+   justify-content: space-around;
+}
+
+.watchdelivery {
+   width: 438px;
+   height: 154px;
+   font-family: Poppins-Medium;
+   font-size: 40px;
+   color: rgba(0, 0, 0, 1);
+}
+
+.appnow {
+   width: 510px;
+   height: 160px;
+   font-family: Poppins-Medium;
+   font-size: 20px;
+   color: rgba(119, 119, 118, 1);
+}
+
+.apple-google {
+   width: 204px;
+   height: 60px;
+   background-color: rgba(253, 199, 45, 1);
+   border-radius: 60px;
+   font-family: Poppins-SemiBold;
+   font-size: 20px;
+   text-align: center;
+   padding-top: 14px;
+   margin-right: 42px;
+
+}
+
+.apple-google a {
+   color: rgba(0, 0, 0, 1);
+}
+
+.WatchYourDelivery {
+   display: flex;
+}
+
+.box-apple-google {
+   display: flex;
+}
+
+.imgdelivery {
+   margin: 160px 195px 144px 86px;
+
+}
+
+.boxdeliverytext {
+   margin-top: 180px;
+   margin-bottom: 50px;
+
+}
+
+/*** meotxe gverdi ***/
+
+.ContactUs {
+   font-family: Poppins-SemiBold;
+   width: 352px;
+   height: 124px;
+   font-size: 40px;
+   color: rgba(0, 0, 0, 1);
+   margin-bottom: 30px;
+
+}
+
+.contactcallus {
+   font-family: Poppins-SemiBold;
+   width: 506px;
+   height: 90px;
+   font-size: 20px;
+   color: rgba(119, 119, 118, 1);
+}
+
+.phone-email-location {
+   width: 280px;
+   height: 145px;
+   margin-top: 174px;
+   margin-right: 160px;
+
+}
+
+.phone-email-location span {
+   color: rgba(119, 119, 118, 1);
+
+}
+
+.boxcontacts {
+   display: flex;
+}
+
+.boxcontactcall {
+   margin: 140px 114px 78px 80px;
+}
+
+.Email {
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+
+.contactusbox {
+   width: 180px;
+   height: 60px;
+   background-color: rgba(253, 199, 45, 1);
+   border-radius: 60px;
+   text-align: center;
+   padding-top: 16px;
+   margin-top: 208px;
+
+}
+
+/*** FOOTER ***/
+
+footer {
+   width: 100%;
+   height: 450px;
+   background-color: rgba(254, 227, 149, 1);
+
+}
+
+.footerbox {
+   display: flex;
+}
+
+.allsmallfooter {
+   width: 182px;
+   font-family: Poppins-SemiBold;
+   font-size: 14px;
+   color: rgba(119, 119, 118, 1);
+}
+
+.fbtwig {
+   width: 160px;
+   height: 28px;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 94px;
+}
+
+.footerdelivery {
+   margin: 92px 85px 0px 112px;
+}
+
+.product {
+   margin-top: 22px;
+}
+
+.footerallservice {
+   margin-top: 92px;
+   margin-right: 108px;
+}
+
+.Pricing {
+   margin-top: 18px;
+   margin-bottom: 8px;
+}
+
+.Reportbug {
+   margin-top: 8px;
+   margin-bottom: 8px;
+}
+
+.footerourcompani {
+   margin-top: 92px;
+   margin-right: 76px;
+}
+
+.ourcompany {
+   margin-bottom: 18px;
+}
+
+.ourmission {
+   margin-top: 8px;
+   margin-bottom: 8px;
+}
+
+.footercommunity {
+   margin-top: 92px;
+   margin-right: 112px;
+}
+
+.Allrightsreserved {
+   font-family: Poppins-Medium;
+   font-size: 15px;
+   color: rgba(119, 119, 118, 1);
+   text-align: center;
+   margin-top: 152px;
+}
+
+.Support {
+   margin-top: 18px;
+   margin-bottom: 8px;
+}
+
+.Questions {
+   margin-bottom: 8px;
+}
+.fbtwig a{
+   color: rgba(0, 0, 0, 1);
+}
